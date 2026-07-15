@@ -1,11 +1,31 @@
+<div align="center">
+
 # Friday
 
-A desktop canvas for running coding agents. You drop an agent onto the board, it runs in a
-real terminal inside a node, you wire nodes together, and Friday keeps a memory of what
-happened so the next agent you open already knows the project.
+**A desktop canvas for running coding agents.**
 
-Built with [Codex](https://openai.com/codex). Rust engine, Tauri shell, React canvas.
-Apache-2.0.
+You drop an agent onto the board, it runs in a real terminal inside a node, you wire nodes
+together, and Friday keeps a memory of what happened so the next agent you open already
+knows the project.
+
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](./LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Linux-E95420.svg)](#requirements)
+[![Stack](https://img.shields.io/badge/stack-Rust%20%2B%20Tauri%20%2B%20React-24C8DB.svg)](#how-it-works)
+[![Status](https://img.shields.io/badge/status-early-orange.svg)](#status)
+
+[Why](#why-i-built-this) &nbsp;·&nbsp;
+[What it does](#what-it-does) &nbsp;·&nbsp;
+[Requirements](#requirements) &nbsp;·&nbsp;
+[Quick start](#quick-start) &nbsp;·&nbsp;
+[How it works](#how-it-works) &nbsp;·&nbsp;
+[Tasks](#tasks) &nbsp;·&nbsp;
+[Status](#status)
+
+</div>
+
+Rust engine, Tauri shell, React canvas. Apache-2.0.
+
+---
 
 ## Why i built this
 
