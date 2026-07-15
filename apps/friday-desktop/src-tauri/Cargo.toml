@@ -1,0 +1,19 @@
+[package]
+name = "friday-desktop"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Friday desktop shell — Tauri v2 window over friday-core."
+
+[lib]
+name = "friday_desktop"
+crate-type = ["lib", "cdylib", "staticlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+friday-core = { path = "../../../crates/friday-core" }

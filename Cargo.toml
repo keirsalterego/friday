@@ -1,0 +1,4 @@
+[workspace]
+resolver = "2"
+members = ["crates/friday-core", "apps/friday-desktop/src-tauri"]
+# friday-memory (P3) and friday-mcp (P1.5/P2) join the workspace when their phase starts.

@@ -1,0 +1,10 @@
+reference/
+*.deb
+target/
+node_modules/
+dist/
+.friday/
+.env
+.env.*
+!.env.example
+.DS_Store
