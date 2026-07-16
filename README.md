@@ -1,8 +1,9 @@
 <div align="center">
 
-# Friday
-
-**A desktop canvas for running coding agents.**
+# Friday 
+**This project is now [Identra](https://github.com/IdentraHQ/identra).** 
+<br>"Friday" was the working name -> active development has moved to the [Identra](https://github.com/IdentraHQ/identra) repo.
+<br>**A desktop canvas for running coding agents.**
 
 You drop an agent onto the board, it runs in a real terminal inside a node, you wire nodes
 together, and Friday keeps a memory of what happened so the next agent you open already
@@ -21,9 +22,10 @@ knows the project.
 [Tasks](#tasks) &nbsp;·&nbsp;
 [Status](#status)
 
-</div>
 
 Rust engine, Tauri shell, React canvas. Apache-2.0.
+
+</div>
 
 ---
 
